@@ -17,9 +17,17 @@
 
 .input {
   display: flex;
-  flex-direction: row;
   align-items: center;
   padding: 50px;
-  
+}
+
+.input input {
+  margin-right: 20px;
+}
+
+.input label {
+  font-size: medium;
+  font-weight: 100;
+  font-style: normal;
 }
 

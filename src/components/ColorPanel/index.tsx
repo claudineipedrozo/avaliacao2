@@ -14,7 +14,7 @@ const ColorPanel: React.FC<ColorPanelProps> = ({ red, green, blue, alpha }) => {
     height: '500px',
   };
 
-  return <div style={colorStyle} />;
+  return <div data-cy="color-panel" style={colorStyle} />;
 };
 
 export default ColorPanel;
