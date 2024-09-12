@@ -17,6 +17,7 @@ const App = () => {
       <div className={styles.input}>
           <label htmlFor="red">Red</label>
           <input
+            id="red-input"
             name="red"
             type="range"
             min={0}
@@ -26,6 +27,7 @@ const App = () => {
           />
           <label htmlFor="green">Green</label>
           <input
+            id="green-input"
             name="green"
             type="range"
             min={0}
@@ -35,6 +37,7 @@ const App = () => {
           />
           <label htmlFor="blue">Blue</label>
           <input
+            id="blue-input"
             name="blue"
             type="range"
             min={0}
@@ -44,10 +47,11 @@ const App = () => {
           />
           <label htmlFor="alpha">Alpha</label>
           <input
+            id="alpha-input"
             name="alpha"
             type="range"
             min={0}
-            max={255}
+            max={1}
             value={alpha}
             onChange={(e) => setAlpha(Number(e.target.value))}
           />
